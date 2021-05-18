@@ -6,6 +6,31 @@
 #header img {
   width: 80px;
 }
+#main{
+  margin-top: 4rem;
+}
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+#carouselExampleFade {
+  position: relative;
+}
+#carouselExampleFade .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  z-index: 1;
+}
+#carouselExampleFade .overlay .container, 
+#carouselExampleFade .overlay .row {
+height: 100%;
+}
 .ph{
     padding-top: 5rem;
 }
